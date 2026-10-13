@@ -1,0 +1,5 @@
+age = int(input("Enter your age: "))
+if age < 19:
+    print("Eligible for student discount")
+else:
+    print("Not eligible for student discount")
