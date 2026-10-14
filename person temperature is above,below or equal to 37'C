@@ -1,0 +1,7 @@
+temp = float(input("Enter temperature in Celsius: "))
+if temp > 37:
+    print("Temperature is above 37°C")
+elif temp < 37:
+    print("Temperature is below 37°C")
+else:
+    print("Temperature is equal to 37°C")
