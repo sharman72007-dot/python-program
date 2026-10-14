@@ -1,0 +1,9 @@
+bill = float(input("Enter shopping bill amount: "))
+if bill > 2000:
+    discount = bill * 10 / 100
+    bill = bill - discount
+    print("Discount:", discount)
+    print("Final bill:", bill)
+else:
+    print("No discount")
+    print("Final bill:", bill)
