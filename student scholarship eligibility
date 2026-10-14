@@ -1,0 +1,6 @@
+marks = float(input("Enter marks percentage: "))
+attendance = float(input("Enter attendance percentage: "))
+if marks >= 90 and attendance >= 85:
+    print("Student is eligible for scholarship")
+else:
+    print("Student is not eligible for scholarship")
